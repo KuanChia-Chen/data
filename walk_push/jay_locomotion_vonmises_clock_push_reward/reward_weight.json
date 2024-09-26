@@ -1,0 +1,85 @@
+{
+    "normalize": true,
+    "weights": {
+        "left_force": {
+            "weighting": 0.1,
+            "scaling": 0.01
+        },
+        "right_force": {
+            "weighting": 0.1,
+            "scaling": 0.01
+        },
+        "left_speed": {
+            "weighting": 0.1,
+            "scaling": 1
+        },
+        "right_speed": {
+            "weighting": 0.1,
+            "scaling": 1
+        },
+        "l_foot_vel": {
+            "weighting": 0.05,
+            "scaling": 0.8
+        },
+        "r_foot_vel": {
+            "weighting": 0.05,
+            "scaling": 0.8
+        },
+        "feet_air_time": {
+            "weighting": 1.0,
+            "kernel": false
+        },
+        "feet_contact": {
+            "weighting": 0.1,
+            "kernel": false
+        },
+        "stance_x": {
+            "weighting": 0.02,
+            "scaling": 10
+        },
+        "stance_y": {
+            "weighting": 0.02,
+            "scaling": 5
+        },
+        "x_vel": {
+            "weighting": 0.15,
+            "scaling": 2.0
+        },
+        "y_vel": {
+            "weighting": 0.1,
+            "scaling": 2.0
+        },
+        "orientation": {
+            "weighting": 0.15,
+            "scaling": 30
+        },
+        "hop_symmetry": {
+            "weighting": 0.0,
+            "scaling": 10
+        },
+        "f_height_bonus": {
+            "weighting": 1.0,
+            "kernel": false
+        },
+        "stable_base": {
+            "weighting": 0.1,
+            "scaling": 0.01
+        },
+        "ctrl_penalty": {
+            "weighting": 0.1,
+            "scaling": 8.0
+        },
+        "trq_penalty": {
+            "weighting": 0.1,
+            "scaling": 1.0
+        },
+        "arm": {
+            "weighting": 0.1,
+            "scaling": 3.0
+        },
+        "self_collision": {
+            "weighting": 1.0,
+            "kernel": false
+        }
+    }
+}
